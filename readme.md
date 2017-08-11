@@ -1,7 +1,7 @@
 # react-timer
 
 ## How to use ?
-
+* `npm install`
 * `npm run build` -- to compile
 * `npm start` -- to run example
 
