@@ -23,12 +23,6 @@
   "dependencies": {
     "prop-types": "^15.5.10"
   },
-  "bin": {
-    "react-timer": "Timer.js"
-  },
-  "directories": {
-    "example": "example"
-  },
   "keywords": [
     "react",
     "component",
