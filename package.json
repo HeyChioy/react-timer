@@ -1,6 +1,6 @@
 {
-  "name": "react-timer",
-  "version": "1.0.0",
+  "name": "@kyuuseiryuu/react-timer",
+  "version": "0.0.1",
   "description": "A react component to create a timer",
   "main": "index.js",
   "scripts": {
@@ -33,5 +33,13 @@
     "react",
     "component",
     "timer"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HeyChioy/react-timer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HeyChioy/react-timer/issues"
+  },
+  "homepage": "https://github.com/HeyChioy/react-timer#readme"
 }
