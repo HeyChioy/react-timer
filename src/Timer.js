@@ -15,6 +15,11 @@ class Timer extends React.Component {
     static stop() {
         clearInterval(this.timer);
     }
+    static delay(callback, timeout = 1000) {
+        setTimeout(() => {
+            callback()
+        }, timeout);
+    };
     constructor(props) {
         super(props);
         const { onCall, interval = 100 } = props;

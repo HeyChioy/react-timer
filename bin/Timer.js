@@ -44,6 +44,15 @@ var Timer = function (_React$Component) {
         value: function stop() {
             clearInterval(this.timer);
         }
+    }, {
+        key: 'delay',
+        value: function delay(callback) {
+            var timeout = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 1000;
+
+            setTimeout(function () {
+                callback();
+            }, timeout);
+        }
     }]);
 
     function Timer(props) {

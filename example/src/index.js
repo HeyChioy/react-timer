@@ -25,6 +25,11 @@ class App extends React.Component {
     handleStop() {
         Timer.stop();
     }
+    delay() {
+        Timer.delay(() => {
+            alert('hello timer delay!');
+        }, 3000);
+    }
     render() {
         return (
             <div
@@ -46,6 +51,7 @@ class App extends React.Component {
                 <div>
                     <button onClick={this.handleStart.bind(this)}>start</button>
                     <button onClick={this.handleStop.bind(this)}>stop</button>
+                    <button onClick={this.delay.bind(this)}>delay</button>
                 </div>
             </div>
         );
