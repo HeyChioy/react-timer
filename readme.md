@@ -32,3 +32,6 @@ class App extends React.Component {
 | :---: | :---: |
 | start | Timer.start(onCall, interval) |
 | stop | Timer.stop() |
+| delay | Timer.start(callback, timeout = 1000) |
+
+
